@@ -1,0 +1,43 @@
+.newsletter {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #2d3436;
+  color: white;
+}
+
+.newsletter h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.newsletter p {
+  margin-bottom: 2rem;
+  color: #dfe6e9;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.form input {
+  padding: 0.8rem 1.5rem;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form button {
+  padding: 0.8rem 2rem;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #c0392b;
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.fa {
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.fa:hover {
+  color: #b2bec3;
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("/fonts/fontawesome-webfont.woff2") format("woff2");
+}

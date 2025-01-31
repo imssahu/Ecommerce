@@ -1,0 +1,24 @@
+.productContainer {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.imageGallery {
+  flex: 1;
+}
+
+.productDetails {
+  flex: 1;
+}
+
+.price {
+  color: #ff6b6b;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.addToCart {
+  background: #4ecdc4;
+  padding: 1rem 2rem;
+}
