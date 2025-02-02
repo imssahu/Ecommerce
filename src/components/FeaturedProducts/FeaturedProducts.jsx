@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./FeaturedProducts.module.css";
-
+import key from "../../../public/Home/key.avif";
 const FeaturedProducts = () => {
   const product = {
     name: "1-layered key-chain",
     price: "$24.99",
-    image: "../../../public/Home/key.avif",
+    image: key,
   };
 
   return (
