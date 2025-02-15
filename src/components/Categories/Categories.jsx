@@ -1,13 +1,14 @@
-import React from "react";
 import styles from "./Categories.module.css";
 import key from "../../../public/Home/key.avif";
 import multi from "../../../public/Home/multi.png";
 import cap from "../../../public/Home/cap.webp";
+import { Link } from "react-router-dom";
 const Categories = () => {
   const categories = [
     {
       name: "1 layered key-chain",
       image: key,
+      
     },
     { name: "2-layred key chain", image: multi },
     { name: "3d-caps", image: cap },
@@ -19,8 +20,10 @@ const Categories = () => {
       <div className={styles.grid}>
         {categories.map((category, index) => (
           <div key={index} className={styles.card}>
+            <Link to='./3d-text'>
             <img src={category.image} alt={category.name} />
             <p>{category.name}</p>
+            </Link>
           </div>
         ))}
       </div>
