@@ -20,10 +20,18 @@ const Categories = () => {
       <div className={styles.grid}>
         {categories.map((category, index) => (
           <div key={index} className={styles.card}>
-            <Link to='./3d-text'>
-            <img src={category.image} alt={category.name} />
-            <p>{category.name}</p>
+            {
+            category.name === '3d-caps' ?
+            <Link to='./3d-object'>
+              <img src={category.image} alt={category.name} />
+              <p>{category.name}</p>
             </Link>
+            :
+            <Link to='./3d-text'>
+              <img src={category.image} alt={category.name} />
+              <p>{category.name}</p>
+            </Link>
+            }
           </div>
         ))}
       </div>
